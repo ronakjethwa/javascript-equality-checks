@@ -1,7 +1,7 @@
 # JavaScropt Equality Checks
 ### Some Fun Equality Checks In JavaScript
 
-There are mainly 3 ways to check the value equality in JavaScrpt. You already know two of them. There is a fun third one, `Object.is().`
+There are mainly 3 ways to check the value equality in JavaScript. You already know two of them. There is a fun third one, `Object.is().`
 ```js
 - Strict Equality: a === b (triple equals).
 - Loose Equality: a == b (double equals).
