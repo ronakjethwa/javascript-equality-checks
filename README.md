@@ -28,3 +28,10 @@ NaN == NaN; // false
 NaN === NaN; // false
 Object.is(NaN,NaN); // true
 ```
+
+```js
+// String, one more obvious one!
+'foo' == 'foo'; // true
+'foo' === 'foo'; // true
+Object.is('foo', 'foo'); // true
+```
