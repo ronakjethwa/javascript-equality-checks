@@ -68,3 +68,15 @@ null == null; // true
 null === null; // true
 Object.is(null, null); // true
 ```
+
+
+### Quick Recap
+This tells us `Object.is()` is way more superior check than `===` in JavaScript. It handles three special cases where `===` fails horribly.
+```js
+// Special Cases
+Object.is(0, -0); // false
+Object.is(-0, -0); // true
+Object.is(NaN, 0/0); // true
+```
+
+Ciao!
