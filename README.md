@@ -60,3 +60,10 @@ Object.is(banana, cherry); // false
 Object.is(cherry, chocolate); // false
 Object.is(chocolate, banana); // true
 ```
+
+```js
+// Null
+null == null; // true
+null === null; // true
+Object.is(null, null); // true
+```
