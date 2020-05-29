@@ -81,6 +81,7 @@ Object.is(NaN, NaN); // true
 ### Additional: Implementation of `===` Function strictEquals
 ```js
 function strictEquals(a,b){
+  // handle special cases, else return the right value!
   if (Object.is(a,NaN) || Object.is(b,NaN)) return false;
   if (Object.is(a,-0) && Object.is(b,0)) return true;
   if (Object.is(a,0) && Object.is(b,-0)) return true;
