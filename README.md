@@ -75,7 +75,7 @@ This tells us `Object.is()` is way more superior check than `===` in JavaScript.
 ```js
 // Special Cases
 Object.is(0, -0); // false
-Object.is(NaN, 0/0); // true
+Object.is(NaN, NaN); // true
 ```
 
 Ciao!
