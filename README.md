@@ -35,3 +35,10 @@ Object.is(NaN,NaN); // true
 'foo' === 'foo'; // true
 Object.is('foo', 'foo'); // true
 ```
+
+```js
+// Array
+[] == []; // false
+[] === []; // false 
+Object.is([], []); // false
+```
