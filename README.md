@@ -1,5 +1,5 @@
 # JavaScropt Equality Checks
-### Several Fun Equality Checks In JavaScript
+### Some Fun Equality Checks In JavaScript
 
 There are mainly 3 ways to check the value equality in JavaScrpt. You already know two of them. There is a fun third one.
 ```js
