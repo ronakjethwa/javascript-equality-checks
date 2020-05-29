@@ -9,8 +9,15 @@ There are mainly 3 ways to check the value equality in JavaScrpt. You already kn
 ```
 
 ```js
-// Zero
+// Zero, look closely!
 -0 == 0; // true
 -0 === 0; // true
 Object.is(-0,0); // false
+```
+
+```js
+// One, an obvious one!
+-1 == 1; //false
+-1 === 1; // false
+Object.is(-1,1); // false
 ```
