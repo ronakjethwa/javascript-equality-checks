@@ -1,4 +1,4 @@
-# JavaScropt Equality Checks
+# JavaScript Equality Checks
 ### Some Fun Equality Checks In JavaScript
 
 There are mainly 3 ways to check the value equality in JavaScript. You already know two of them. There is a fun third one, `Object.is().`
