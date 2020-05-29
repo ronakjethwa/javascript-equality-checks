@@ -7,3 +7,10 @@ There are mainly 3 ways to check the value equality in JavaScrpt. You already kn
 - Loose Equality: a == b (double equals).
 - Same Value Equality: Object.is(a, b).
 ```
+
+```js
+// Zero
+-0 == 0; // true
+-0 === 0; // true
+Object.is(-0,0); // false
+```
