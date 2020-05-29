@@ -27,6 +27,7 @@ Object.is(-1,1); // false
 NaN == NaN; // false
 NaN === NaN; // false
 Object.is(NaN,NaN); // true
+Object.is(NaN, 0/0); // true
 ```
 
 ```js
