@@ -42,3 +42,21 @@ Object.is('foo', 'foo'); // true
 [] === []; // false 
 Object.is([], []); // false
 ```
+
+```js
+// Objects
+var foo = { a: 1 };
+var bar = { a: 1 };
+Object.is(foo, foo); // true
+Object.is(foo, bar); // false
+
+// One more, for better clarity
+let banana = {};
+let cherry = banana;
+let chocolate = cherry;
+cherry = {};
+
+Object.is(banana, cherry); // false
+Object.is(cherry, chocolate); // false
+Object.is(chocolate, banana); // true
+```
